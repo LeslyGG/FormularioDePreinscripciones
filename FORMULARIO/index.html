@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UICSLP CAMPUS TAMUIN</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+<body background="img/uic.jpg">
+    <div class="contenedor">
+        <form action="" class="form"> 
+            <div class="form-header">
+                <h1 class="form-title"> <span>Formulario de </span>Pre-<span>Inscripción</span></h1>
+                
+            </div>
+                
+            <label  for="nombre" class="form-label"> Nombre del candidato: </label>
+            <input type="text" id="nombre" class="form-input" placeholder="Nombre completo">
+                
+            <label  for="curp" class="form-label"> CURP: </label>
+            <input type="text" id="curp" class="form-input" placeholder="CURP">
+                
+            <label  for="correo" class="form-label"> Correo electronico: </label>
+            <input type="email" id="correo" class="form-input" placeholder="Correo electronico">
+               
+            <label class="form-label" for="telefono">Teléfono de contacto: </label>
+            <input class="form-input" type="tel" placeholder="Telefono de contacto" id="telefono">
+
+            <label class="form-label" for="esc__procedencia">Escuela de procedencia: </label>
+            <select class="form-select" id="escuelas">
+                
+                </select>
+
+                <label class="form-label" for="promedio">Promedio anterior: </label>
+                <input class="form-input" type="number" placeholder="Promedio" id="promedio">    
+
+            <label class="form-label" for="carrera">Selecciona carrera: </label>
+            <select class="form-select" id="carrera">
+                
+                </select>
+
+<p class="texto" id="texto"></p>
+            <input type="submit" class="btn-submit" value="Generar ficha">
+                 
+            </form>
+            </div>
+
+        </form>
+
+    </main>
+    <script src="main/main.js"></script>
+</body>
+</html>
